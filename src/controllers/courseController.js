@@ -4,19 +4,6 @@ const { courseJoi } = require("../validation/joiValidation")
 
 //<<<<<<<<<<<<<<<<<<<<<<<<<<=============create Course=======================>>>>>>>>>>>>>>>>>>>>>>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 const createCourse = async (req, res) => {
 	try {
 		let data = req.body
@@ -39,19 +26,6 @@ const createCourse = async (req, res) => {
 }
 
 //<<<<<<<<<<<<<<<<<<<<<=======================get course==================>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 const getdata = async (req, res) => {
 	try {
