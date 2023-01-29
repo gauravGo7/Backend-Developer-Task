@@ -33,7 +33,7 @@ const courseSchema = mongoose.Schema({
         type: Boolean,
         default: false
     },
-    isAprovved: Boolean
+    isApproved: Boolean
 }, { timestamps: true })
 
 module.exports = mongoose.model("course", courseSchema)
