@@ -7,6 +7,13 @@ const userJoi=Joi.object({
     role:Joi.string().trim().required().valid("Admin", "Super Admin", "Employee")
 })
 
+
+
+
+
+
+
+
 const loginJoi=Joi.object({
     email:Joi.string().trim().required().regex(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/).message("please enter valid email"),
     password: Joi.string().trim().required().min(8).max(15).regex(/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,15}$/).message("please enter valid password"),

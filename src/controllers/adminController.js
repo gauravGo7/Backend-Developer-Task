@@ -5,6 +5,22 @@ const jwt = require("jsonwebtoken");
 
 //<<<<<<<<<<<<<<============================create employee======================================>>>>>>>>>>>>>>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const createEmployee = async (req, res) => {
 	try {
 		data = req.body
@@ -30,6 +46,18 @@ const createEmployee = async (req, res) => {
 		return res.status(500).send({ status: false, error: error.message });
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 //<<<<<<<<<<<<<<<==================================login=========================================>>>>>>>>>>>>>>>>>>
 
